@@ -1,0 +1,32 @@
+
+
+.style {
+  border-radius: 70px;
+  background-color: rgb(255, 255, 255);
+  padding-top: 20px;
+}
+
+.style a {
+  color: rgb(0, 0, 0);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+
+
+body{
+  background-color: black;
+}
+
+
+@media (max-width:500px) {
+
+  .style a{
+    font-size: 20px;
+  }
+  
+}
